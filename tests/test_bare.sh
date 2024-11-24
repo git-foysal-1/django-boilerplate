@@ -1,5 +1,5 @@
 #!/bin/sh
-# this is a very simple script that tests the docker configuration for cookiecutter-django
+# this is a very simple script that tests the docker configuration for django boilarplate
 # it is meant to be run from the root directory of the repository, eg:
 # sh tests/test_bare.sh
 
@@ -10,12 +10,15 @@ set -x
 mkdir -p .cache/bare
 cd .cache/bare
 
-# create the project using the default settings in cookiecutter.json
-cookiecutter ../../ --no-input --overwrite-if-exists use_docker=n "$@"
+# create the project using the default settings in dxh_py.json
+dxh_py ../../ --no-input --overwrite-if-exists use_docker=n "$@"
 cd my_awesome_project
 
+chmod +x ./utility/install_os_dependencies.sh
+
 # Install OS deps
-sudo utility/install_os_dependencies.sh install
+# sudo bash ./utility/install_os_dependencies.sh install
+
 
 # Install Python deps
 pip install -r requirements/local.txt

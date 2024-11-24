@@ -1,6 +1,6 @@
-Generate a new cookiecutter-django project: ::
+Generate a new django-boilerplate project: ::
 
-    $ cookiecutter gh:cookiecutter/cookiecutter-django
+    $ dxh_py https://github.com/devxhub/django-boilerplate.git
 
 For more information refer to
 :ref:`Project Generation Options <template-options>`.

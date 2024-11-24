@@ -1,4 +1,4 @@
-# cookiecutter-django documentation build configuration file.
+# django boilerplate documentation build configuration file.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -38,8 +38,8 @@ source_suffix = [".rst", ".md"]
 master_doc = "index"
 
 # General information about the project.
-project = "Cookiecutter Django"
-copyright = f"2013-{now.year}, Daniel Roy Greenfeld"
+project = "Django Boilerplate"
+copyright = f"2013-{now.year}, DevxhuB"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -162,7 +162,7 @@ html_static_path = ["_static"]
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "cookiecutter-djangodoc"
+htmlhelp_basename = "dxh_py-djangodoc"
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -181,9 +181,9 @@ latex_elements = {
 latex_documents = [
     (
         "index",
-        "cookiecutter-django.tex",
-        "cookiecutter-django Documentation",
-        "cookiecutter-django",
+        "dxh_py-django.tex",
+        "dxh_py-django Documentation",
+        "dxh_py-django",
         "manual",
     )
 ]
@@ -216,9 +216,9 @@ latex_documents = [
 man_pages = [
     (
         "index",
-        "Cookiecutter Django",
-        "Cookiecutter Django documentation",
-        ["Daniel Roy Greenfeld"],
+        "dxh_py Django",
+        "dxh_py Django documentation",
+        ["DevxhuB"],
         1,
     )
 ]
@@ -235,11 +235,11 @@ man_pages = [
 texinfo_documents = [
     (
         "index",
-        "Cookiecutter Django",
-        "Cookiecutter Django documentation",
-        "Daniel Roy Greenfeld",
-        "Cookiecutter Django",
-        "A Cookiecutter template for creating production-ready " "Django projects quickly.",
+        "dxh_py Django",
+        "dxh_py Django documentation",
+        "DevxhuB",
+        "dxh_py Django",
+        "A dxh_py template for creating production-ready " "Django projects quickly.",
         "Miscellaneous",
     )
 ]

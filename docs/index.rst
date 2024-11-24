@@ -1,11 +1,11 @@
-.. cookiecutter-django documentation master file.
+.. django-boilarplate documentation master file.
 
-Welcome to Cookiecutter Django's documentation!
+Welcome to Django Boilarplate's documentation!
 ===============================================
 
-Powered by Cookiecutter_, Cookiecutter Django is a project template for jumpstarting production-ready Django projects. The template offers a number of generation options, we invite you to check the :ref:`dedicated page <template-options>` to learn more about each of them.
+Powered by DevXhuB_, Django Boilarplate is a project template for jumpstarting production-ready Django projects. The template offers a number of generation options, we invite you to check the :ref:`dedicated page <template-options>` to learn more about each of them.
 
-.. _cookiecutter: https://github.com/cookiecutter/cookiecutter
+.. _django-boilarplate: https://github.com/devxhub/django-boilerplate
 
 Contents
 --------
